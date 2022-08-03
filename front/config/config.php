@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/hkmraipur_bhilai/';
+// $config['base_url'] = 'http://localhost/hkm/';
 // $config['base_url'] = 'https://digitalmarketinggroup.in/harekrishna/hkm_new/';
-// $config['base_url'] = 'https://hkmraipur-bhilai.org/';
+$config['base_url'] = 'https://hkmraipur-bhilai.org/';
 
 /*
 |--------------------------------------------------------------------------
