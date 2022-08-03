@@ -28,11 +28,18 @@ class Seva_Page_Model extends CI_Model {
     private function reset_data() {
         $this->data = array();
     }
+   
     public function insert($table){
-     $q = $this->db->insert($table,$this->data);
-     $this->reset_data();
-     return $q;   
-    }
+        $q = $this->db->insert($table,$this->data);
+        $this->reset_data();
+        return $this->db->insert_id();   
+       }
+   
+       public function update($table){
+           $this->db->where($this->primary_key);
+           $this->db->update($table,$this->data);
+           return true;
+       }
     public function get_donation_page() {
         $type_id = 5;
         $this->db->where('type_id', $type_id);
@@ -120,4 +127,22 @@ class Seva_Page_Model extends CI_Model {
        $q = $this->db->get($table);
         return $q->result();
    }
+
+   public function row_data($table) {
+    $this->db->where($this->primary_key);
+    $query = $this->db->get($table);
+    $row = $query->row();
+    $this->reset_pk();
+    return $row;
+}
+
+public function get_rowdata($table)
+{
+   
+    $this->db->where($this->primary_key);
+    $query = $this->db->get($table);
+    $row = $query->result();
+    $this->reset_pk();
+    return $row;
+}
 }
