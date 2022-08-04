@@ -81,4 +81,5 @@ while($result_page = mysqli_fetch_assoc($seva_pages)){
 
 $route['connect'] = "custom_page/index/connect";
 $route['donate'] = "custom_page/index/donate";
+$route['vaishnava-calendar'] = "custom_page/index/vaishnava-calendar";
 $route['video-gallery'] = 'gallery/video_gallery';

@@ -1087,7 +1087,7 @@ var THEMEMASCOT = {};
                         center: 'title',
                         right: 'month,agendaWeek,agendaDay'
                     },
-                    defaultDate: '2017-05-01',
+                    defaultDate: new Date().toISOString().slice(0, 10),
                     selectable: true,
                     selectHelper: true,
                     select: function(start, end) {

@@ -1,2 +1,6 @@
 front/config/config.php
 front/config/database.php
+app_login/myapp/config/config.php
+front/config/config.php
+app_login/myapp/config/database.php
+.gitignore
