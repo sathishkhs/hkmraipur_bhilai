@@ -6534,3 +6534,11 @@ blockquote p {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+.causes .thumb{
+  height: 250px;
+}
+.causes .thumb .img-fullwidth{
+  height: 100%;
+  object-fit: cover;
+}
