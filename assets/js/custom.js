@@ -221,10 +221,12 @@ var THEMEMASCOT = {};
             });
         },
 
-        TM_preLoaderOnLoad: function() {
-            var $preloader = $('#preloader');
-            $preloader.delay(200).fadeOut('slow');
-        },
+        TM_preLoaderOnLoad: setInterval(() => {
+                   
+                var $preloader = $('#preloader');
+                $preloader.delay(100).fadeOut('slow');
+           
+            }, 2000),
 
 
         /* ---------------------------------------------------------------------- */
