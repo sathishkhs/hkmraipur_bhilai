@@ -128,7 +128,7 @@
                   <h3 class="mt-0 line-bottom">Offer Seva<span class="font-weight-300"> Now!</span></h3>
 
                   <!-- ===== START: Paypal Both Onetime/Recurring Form ===== -->
-                  <form id="popup_paypal_donate_form_onetime_recurring" action="seva_page/<?php echo $page_items->page_slug; ?>" method="POST" enctype="multipart/form-data">
+                  <form id="popup_paypal_donate_form_onetime_recurring" action="seva_page/index/<?php echo $page_items->page_slug; ?>" method="POST" enctype="multipart/form-data">
                   <?php  if ($this->config->item('payment_mode') == 'test') { ?>  
                   <input name="table_name" type="hidden" value="test_payments">
                   <?php }else{ ?>
