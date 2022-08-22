@@ -18,7 +18,7 @@ class Seva_Page extends MY_Controller {
 
    
     public function index($slug) {
-        print_R($slug);
+       
         if (!empty($this->input->post())) {
 
             $template_path = $this->sevaspagewisecontent($slug);
