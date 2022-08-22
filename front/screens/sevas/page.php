@@ -388,7 +388,7 @@
     $('#modal-close').on('click',function(){
       
             //  window.location.replace("donate");
-             window.location.href = '';
+             window.location.href = "<?php echo base_url($page_items->page_slug); ?>";
         
     });
 
@@ -464,7 +464,7 @@ $(".number").keydown(function(event) {
         })
 
 function modal_close(){
-    window.location.href = <?php echo $slug; ?>;
+    window.location.href = "<?php echo base_url($page_items->page_slug); ?>";
 }
 
 </script>
