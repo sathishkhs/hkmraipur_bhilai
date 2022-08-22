@@ -66,6 +66,7 @@
     <link href="assets/css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
     
     <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/jquery-validation.js"></script>
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
