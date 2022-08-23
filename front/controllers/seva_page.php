@@ -18,7 +18,9 @@ class Seva_Page extends MY_Controller {
 
    
     public function index($slug) {
-        print_R($slug);
+        $data = file_get_contents("php://input"); 
+        $data = json_decode($data,true); 
+        print_r($data);
         if (!empty($this->input->post())) {
 
             $template_path = $this->sevaspagewisecontent($slug);
