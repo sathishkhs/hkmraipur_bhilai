@@ -109,7 +109,6 @@
   </div>
 </section>
 
-<?php echo base_url(); ?>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
