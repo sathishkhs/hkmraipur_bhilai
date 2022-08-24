@@ -98,6 +98,13 @@ class Seva_Page extends MY_Controller {
         }
     
     }
+
+    public function create_order(){
+        $post_data = $this->input->post();
+        header('Content-Type: application/json');
+        echo json_encode($post_data);
+        exit;
+    }
     public function save_payment($insert_id, $table_name)
     {
 

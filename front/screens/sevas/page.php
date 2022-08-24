@@ -187,7 +187,7 @@
 
                     <div class="col-sm-12">
                       <div class="form-group">
-                        <button type="submit" name="submit" class="btn btn-flat btn-dark btn-theme-colored mt-10 pl-30 pr-30" data-loading-text="Please wait...">Donate Now</button>
+                        <button type="submit"  class="btn btn-flat btn-dark btn-theme-colored mt-10 pl-30 pr-30" data-loading-text="Please wait...">Donate Now</button>
                       </div>
                     </div>
 
@@ -440,7 +440,16 @@ $("#popup_paypal_donate_form_onetime_recurring").validate({
             if(amount == '' || amount < 300 ){
                 alert('Amount cannot be less than ₹300')
             }else{
-            form.submit();
+            // form.submit();
+            $.ajax({
+              url: 'seva_page/create_order',
+              data: $('#popup_paypal_donate_form_onetime_recurring').serialize(),
+              method:'post',
+              type:'post',
+              success: function(data){
+                console.log(data);
+              }
+            })
             }
         }
     });
