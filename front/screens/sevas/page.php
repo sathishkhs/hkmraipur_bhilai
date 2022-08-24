@@ -442,7 +442,7 @@ $("#popup_paypal_donate_form_onetime_recurring").validate({
             }else{
             // form.submit();
             $.ajax({
-              url: 'seva_page/create_order',
+              url: '<?php echo base_url();?>/seva_page/create_order',
               data: $('#popup_paypal_donate_form_onetime_recurring').serialize(),
               method:'post',
               type:'post',
