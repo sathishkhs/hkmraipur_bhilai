@@ -23,9 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+$path_parts = pathinfo($_SERVER['SCRIPT_NAME']);
+$config['base_url'] = $protocol.$_SERVER['HTTP_HOST'];
 // $config['base_url'] = 'http://localhost/hkmraipur_bhilai/';
 // $config['base_url'] = 'https://digitalmarketinggroup.in/harekrishna/hkm_new/';
-$config['base_url'] = 'https://hkmraipur-bhilai.org/';
+// $config['base_url'] = 'https://hkmraipur-bhilai.org/';
 
 /*
 |--------------------------------------------------------------------------
