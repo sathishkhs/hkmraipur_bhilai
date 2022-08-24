@@ -14,3 +14,7 @@ RewriteRule ^(.*)$ index.php/$1 [L,QSA]
         Header set Cache-Control "max-age=9184600, public"
 </filesMatch>
 </IfModule>
+
+<IfModule mod_headers.c>  
+    Header set Access-Control-Allow-Origin '*'
+</IfModule>
