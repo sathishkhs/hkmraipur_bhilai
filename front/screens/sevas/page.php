@@ -89,7 +89,7 @@
                       </div>
                     </div>
                     <?php
-                    if (1 + $rowCount % $numOfCols == 0) { ?>
+                    if ($rowCount % $numOfCols == 0) { ?>
                     </div>
                 <?php }
                   } ?>
