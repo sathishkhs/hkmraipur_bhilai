@@ -1,4 +1,3 @@
-    
    <!-- divider: what makes us different -->
    <section class="divider bg-lightest">
       <div class="container pt-70 pb-60">
@@ -388,7 +387,7 @@
        
     },
     {
-        title: "Govardhana Puja",
+        title: "Govardhana Puja, Go Puja, or Go-krda",
         url: '',
         start: '2022-10-26',
     },
@@ -418,6 +417,12 @@
     },
     {
         title: "Tulasi Saligrama Vivaha",
+        url: '',
+        start: '2022-11-08',
+       
+    },
+    {
+        title: "Karthik Purnima",
         url: '',
         start: '2022-11-08',
        

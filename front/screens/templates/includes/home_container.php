@@ -141,7 +141,7 @@
                 </div>
               </div>
             </div>
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis deleniti, sint assumenda. Pariatur iste veritatis excepturi, ipsa optio nobis.</p>
+            <p class="mt-10"></p>
             <a href="#" class="btn-read-more">Read more</a>
             <div class="clearfix"></div>
           </div>
@@ -161,7 +161,7 @@
                 </div>
               </div>
             </div>
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis deleniti, sint assumenda. Pariatur iste veritatis excepturi, ipsa optio nobis.</p>
+            <p class="mt-10"></p>
             <a href="#" class="btn-read-more">Read more</a>
             <div class="clearfix"></div>
           </div>
@@ -291,7 +291,7 @@
           <div class="title-flaticon">
             <i class="flaticon-charity-alms"></i>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+          <p>Here are the Glimpses of Harekrishna Mandir Raipur - Bhillai</p>
         </div>
       </div>
     </div>
