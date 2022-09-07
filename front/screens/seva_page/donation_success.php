@@ -77,7 +77,7 @@
 						</div>
 						<div class="centralized-content ">
                         <p class="text-center ">We have received your kind contribution of <?php echo $payment_data->amount; ?>. Your contribution will help to perform the sevas at 
-HARE KRISHNA MADIR, AHMEDABAD.</p>
+HARE KRISHNA MADIR, RAIPUR-BHILAI.</p>
 						</div>
 							<div class="centralized-title text-center">
 						<!-- Together, we can achieve a hunger-free Mumbai! -->

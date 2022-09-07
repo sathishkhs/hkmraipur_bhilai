@@ -77,7 +77,7 @@
                         Sorry, <?php echo $payment_data->full_name; ?> your transaction was unsuccessful. 
 						</div>
 						<div class="centralized-content ">
-							<p class="text-center ">We appreciate your generosity and attempt to support the sevas offered at HARE KRISHNA MADIR, AHMEDABAD. However, we regret to inform that your online donation transaction could not be completed due to possible technical error. </p>
+							<p class="text-center ">We appreciate your generosity and attempt to support the sevas offered at HARE KRISHNA MANDIR, RAIPUR-BHILAI. However, we regret to inform that your online donation transaction could not be completed due to possible technical error. </p>
 						</div>
 						<div class="centralized-content ">
 							<p class="text-center ">Your contribution is of utmost significance. Hence, we request you to kindly try donating once again through this link <a class="btn btn-primary" href="<?php echo $slug; ?>">Click Here</a></p>
