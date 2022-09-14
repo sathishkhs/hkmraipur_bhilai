@@ -15,10 +15,11 @@ class Custom_page extends MY_Controller {
 
     
     public function index($slug) {
-        
         $template_path = $this->pagewisecontent($slug);
         $data = $this->data;
-      
+        if($slug == 'vaishnava-calendar'){
+            $data['vaishnava_calendar'] = $this->custom_page_model->get_vaishnava_calendar('vaishnava_calendar');
+        }
         $data['view_path'] = "custom/$slug"; 
         $data['page_heading'] = $data['page_items']->page_title;
         $data['breadcrumb'] = '<b><a href="" class="thm-text">BACK TO HOME</a></b> ';

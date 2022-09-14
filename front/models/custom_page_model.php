@@ -122,4 +122,11 @@ class Custom_Page_Model extends CI_Model {
         $q = $this->db->get();
         return $q->result();
    }
+
+   public function get_vaishnava_calendar($table){
+       $this->db->select('title,url, start, end');
+       $this->db->where('status_ind', '1');
+       $q = $this->db->get($table);
+       return $q->result();
+   }
 }
